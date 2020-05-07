@@ -1,0 +1,8 @@
+$bgcolor: #00bcd4;
+$darkTextcolor: #333;
+
+@mixin fontOmit {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
